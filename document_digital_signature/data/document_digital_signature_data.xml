@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+		
+		<!-- We use test ip to prevent errors in production -->
+    	<record id="ip_signature_config_parameter" model="ir.config_parameter">
+            <field name="key">server.ip.signature</field>
+            <field name="value">127.0.0.1</field>
+        </record>
+
+    </data>
+</openerp>

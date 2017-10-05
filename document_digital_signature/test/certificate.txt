@@ -1,0 +1,90 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            2c:a1:fd:7c:0b:0f:f4:e6:cb:d3:6a:08:a8:f8:98:e2
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=IT, O=ArubaPEC S.p.A., OU=Certification AuthorityC, CN=ArubaPEC S.p.A. NG CA 3
+        Validity
+            Not Before: Jul 31 00:00:00 2013 GMT
+            Not After : Jul 30 23:59:59 2016 GMT
+        Subject: C=IT, O=non presente, CN=PASCHINO LEONARDO/serialNumber=IT:PSCLRD80S25I452R, GN=LEONARDO, SN=PASCHINO/dnQualifier=12283958
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d0:65:40:82:0e:98:78:c6:f6:5a:f4:61:24:c6:
+                    fa:4c:78:a6:75:f9:68:b0:8b:77:d5:f2:f0:48:d9:
+                    5d:14:77:46:e5:12:12:f5:f1:f5:48:9a:eb:c7:41:
+                    fc:9b:89:ba:24:e2:b8:8c:88:ac:d7:9a:ff:bd:14:
+                    fe:0f:05:a3:a0:8d:16:a6:e8:bc:97:22:56:0c:f1:
+                    c6:30:8c:79:3d:03:02:c6:e5:63:37:14:4d:56:4d:
+                    d2:bb:0b:a4:70:58:a4:4e:f2:15:da:3f:b7:81:31:
+                    6d:be:41:33:44:03:f9:98:20:44:4c:b0:50:bc:ea:
+                    7b:17:03:d6:d5:6a:ea:e4:4b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Non Repudiation
+            X509v3 Subject Key Identifier: 
+                53:16:87:A4:8B:FA:15:57:B9:A4:2A:5C:21:1E:60:A2:7A:06:9C:89
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.29741.1.1.1
+                  CPS: https://ca.arubapec.it/cps.html
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.arubapec.it/ArubaPECSpACertificationAuthorityC/LatestCRL.crl
+
+            qcStatements: 
+                0!0......F..0......F.....0......F..
+            X509v3 Authority Key Identifier: 
+                keyid:F0:C0:45:B1:B6:35:B4:EA:5F:29:FA:83:03:4A:DC:2F:F5:B3:7D:E8
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.arubapec.it
+
+    Signature Algorithm: sha256WithRSAEncryption
+         92:53:11:1a:8f:d7:4f:93:a9:eb:5c:e0:aa:64:4d:55:32:e9:
+         86:96:17:ad:2b:0e:31:26:c9:41:19:5d:e8:6c:c1:7d:13:1c:
+         1d:5c:69:16:20:71:8d:03:34:17:62:45:23:d2:41:b4:89:32:
+         82:f0:bb:2c:d4:a5:16:96:c9:63:9c:90:cb:7e:83:f5:66:d9:
+         aa:bc:3d:d9:d1:00:2c:82:c4:ab:fc:7a:21:5a:08:ef:5e:fd:
+         78:93:40:bf:d0:02:e0:aa:42:2c:d4:ec:96:c7:e0:51:d7:94:
+         fb:be:5d:c5:3c:bf:e3:cd:e8:18:62:5a:60:a0:29:d8:39:15:
+         6b:f2:8f:46:74:6c:fa:be:92:13:3e:a4:e6:35:bc:db:ad:f9:
+         6f:e4:35:3a:23:0f:1e:86:e6:98:68:a3:20:b9:9f:38:c4:95:
+         38:a2:8c:4d:81:53:28:b9:d2:62:0b:be:9e:e6:7b:94:88:ab:
+         58:c7:f2:b9:4f:d3:91:25:4b:a9:d7:31:91:75:d7:1a:6a:7c:
+         e6:f7:a5:59:50:7b:80:c3:9d:04:ac:77:74:44:f1:7d:30:a9:
+         08:c2:0d:72:ad:50:2b:52:cd:a4:fe:a0:34:35:98:a6:e3:5f:
+         11:f8:b5:29:8f:4d:2b:6a:38:a8:40:a3:a8:13:76:23:cf:5e:
+         82:06:47:8e
+-----BEGIN CERTIFICATE-----
+MIIEaTCCA1GgAwIBAgIQLKH9fAsP9ObL02oIqPiY4jANBgkqhkiG9w0BAQsFADBs
+MQswCQYDVQQGEwJJVDEYMBYGA1UECgwPQXJ1YmFQRUMgUy5wLkEuMSEwHwYDVQQL
+DBhDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eUMxIDAeBgNVBAMMF0FydWJhUEVDIFMu
+cC5BLiBORyBDQSAzMB4XDTEzMDczMTAwMDAwMFoXDTE2MDczMDIzNTk1OVowgZcx
+CzAJBgNVBAYTAklUMRUwEwYDVQQKDAxub24gcHJlc2VudGUxGjAYBgNVBAMMEVBB
+U0NISU5PIExFT05BUkRPMRwwGgYDVQQFExNJVDpQU0NMUkQ4MFMyNUk0NTJSMREw
+DwYDVQQqDAhMRU9OQVJETzERMA8GA1UEBAwIUEFTQ0hJTk8xETAPBgNVBC4TCDEy
+MjgzOTU4MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQZUCCDph4xvZa9GEk
+xvpMeKZ1+Wiwi3fV8vBI2V0Ud0blEhL18fVImuvHQfybibok4riMiKzXmv+9FP4P
+BaOgjRam6LyXIlYM8cYwjHk9AwLG5WM3FE1WTdK7C6RwWKRO8hXaP7eBMW2+QTNE
+A/mYIERMsFC86nsXA9bVaurkSwIDAQABo4IBXTCCAVkwDgYDVR0PAQH/BAQDAgZA
+MB0GA1UdDgQWBBRTFoeki/oVV7mkKlwhHmCiegaciTBHBgNVHSAEQDA+MDwGCysG
+AQQBgegtAQEBMC0wKwYIKwYBBQUHAgEWH2h0dHBzOi8vY2EuYXJ1YmFwZWMuaXQv
+Y3BzLmh0bWwwWAYDVR0fBFEwTzBNoEugSYZHaHR0cDovL2NybC5hcnViYXBlYy5p
+dC9BcnViYVBFQ1NwQUNlcnRpZmljYXRpb25BdXRob3JpdHlDL0xhdGVzdENSTC5j
+cmwwLwYIKwYBBQUHAQMEIzAhMAgGBgQAjkYBATALBgYEAI5GAQMCARQwCAYGBACO
+RgEEMB8GA1UdIwQYMBaAFPDARbG2NbTqXyn6gwNK3C/1s33oMDMGCCsGAQUFBwEB
+BCcwJTAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuYXJ1YmFwZWMuaXQwDQYJKoZI
+hvcNAQELBQADggEBAJJTERqP10+Tqetc4KpkTVUy6YaWF60rDjEmyUEZXehswX0T
+HB1caRYgcY0DNBdiRSPSQbSJMoLwuyzUpRaWyWOckMt+g/Vm2aq8PdnRACyCxKv8
+eiFaCO9e/XiTQL/QAuCqQizU7JbH4FHXlPu+XcU8v+PN6BhiWmCgKdg5FWvyj0Z0
+bPq+khM+pOY1vNut+W/kNTojDx6G5phooyC5nzjElTiijE2BUyi50mILvp7me5SI
+q1jH8rlP05ElS6nXMZF11xpqfOb3pVlQe4DDnQSsd3RE8X0wqQjCDXKtUCtSzaT+
+oDQ1mKbjXxH4tSmPTStqOKhAo6gTdiPPXoIGR44=
+-----END CERTIFICATE-----
+

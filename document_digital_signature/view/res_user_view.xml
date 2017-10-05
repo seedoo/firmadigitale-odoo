@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- Adds Digital Signature TAB to user form view -->
+
+        <record id="view_users_pem_ds_form" model="ir.ui.view">
+            <field name="name">res.users.pem.ds.form</field>
+            <field name="model">res.users.pem</field>
+            <field name="arch" type="xml">
+                <form string="External PEM Certificates">
+                    <field name="user_id" />
+                    <newline/>
+                    <field name="date_start" />
+                    <field name="date_end" />
+                    <newline/>
+                    <field name="pem" colspan="4"/>
+                </form>
+        	</field>
+        </record>
+
+        <record id="view_users_pem_ds_tree" model="ir.ui.view">
+            <field name="name">res.users.pem.ds.tree</field>
+            <field name="model">res.users.pem</field>
+            <field name="arch" type="xml">
+                <tree string="External PEM Certificates">
+                    <field name="date_start" />
+                    <field name="date_end" />
+                    <field name="pem"/>
+                </tree>
+        	</field>
+        </record>
+
+        <record id="view_users_ds_form" model="ir.ui.view">
+            <field name="name">res.users.ds.form</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="/form/sheet/notebook" position="inside">
+                    <page string="Digital Signature">
+                    	<label for="reset_pem" />
+                        <field name="reset_pem" />
+                        <newline/>
+                    	<label for="pem" />
+                    	<newline/>
+                        <field name="pem" colspan="4"/>
+                    	<newline/>
+                        <separator string="External PEMs" />
+                        <field name="user_pem_ids" colspan="4" nolabel="1"/>
+                    </page>
+                </xpath>
+        	</field>
+        </record>
+
+    </data>
+</openerp>

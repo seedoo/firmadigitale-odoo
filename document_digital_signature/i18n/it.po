@@ -1,0 +1,335 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* document_digital_signature
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-09 10:45+0000\n"
+"PO-Revision-Date: 2015-10-09 12:57+0100\n"
+"Last-Translator: Roberto Onnis <roberto.onnis@innoviu.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Cancel"
+msgstr "Cancella"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Close"
+msgstr "Chiudi"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Create Archive to Sign"
+msgstr "Crea Archivio da Firmare"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,date_req:0
+msgid "Date of Sign Request"
+msgstr "Data Richiesta Firma"
+
+#. module: document_digital_signature
+#: view:res.users:0
+msgid "Digital Signature"
+msgstr "Firma Digitale"
+
+#. module: document_digital_signature
+#: code:_description:0
+#: model:ir.model,name:document_digital_signature.model_ir_attachment_sign
+#, python-format
+msgid "Digital Signature Support Table"
+msgstr "Tabella di Supporto alla Firma Digitale"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,parent_id:0
+msgid "Directory"
+msgstr "Directory"
+
+#. module: document_digital_signature
+#: model:ir.module.category,name:document_digital_signature.module_document_sign_category
+msgid "Document Sign"
+msgstr "Firma Documento"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:244
+#: code:addons/document_digital_signature/model/document_digital_signature.py:357
+#: code:addons/document_digital_signature/model/document_digital_signature.py:362
+#: code:addons/document_digital_signature/wizard/export_tos.py:61
+#: code:addons/document_digital_signature/wizard/export_tos_single_attachment.py:61
+#: code:addons/document_digital_signature/wizard/export_tos_single_attachment.py:76
+#, python-format
+msgid "Error!"
+msgstr "Errore!"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Export"
+msgstr "Esporta"
+
+#. module: document_digital_signature
+#: model:ir.actions.act_window,name:document_digital_signature.action_wizard_export_single_tos
+msgid "Export Attachment To Sign"
+msgstr "Esporta Allegato da Firmare"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0
+msgid "Export Attachment to Sign"
+msgstr "Esporta Allegato da Firmare"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Export Complete"
+msgstr "Esportazione Completata"
+
+#. module: document_digital_signature
+#: view:ir.attachment:0
+msgid "Export Document To Sign"
+msgstr "Esporta Documento da Firmare"
+
+#. module: document_digital_signature
+#: view:document.ds.export.tos:0
+msgid "Export Files to Sign"
+msgstr "Esporta File da Firmare"
+
+#. module: document_digital_signature
+#: model:ir.actions.act_window,name:document_digital_signature.action_wizard_export_tos
+#: model:ir.ui.menu,name:document_digital_signature.menu_wizard_export_tos
+msgid "Export Tos"
+msgstr "Esporta Archivio per Firma"
+
+#. module: document_digital_signature
+#: field:document.ds.export.single.tos,data:0
+#: field:document.ds.export.tos,data:0
+msgid "File"
+msgstr "File"
+
+#. module: document_digital_signature
+#: field:document.ds.export.single.tos,name:0
+#: field:document.ds.export.tos,name:0
+msgid "File Name"
+msgstr "Nome File"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:150
+#, python-format
+msgid "File Zip not valid!"
+msgstr "File Zip non valido!"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:232
+#, python-format
+msgid "File not valid!"
+msgstr "File non valido!"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0
+msgid "Here is the exported file to sign with dsodoo:"
+msgstr "Qui trovi il file esportato da firmare con dsodoo:"
+
+#. module: document_digital_signature
+#: view:document.ds.export.tos:0
+msgid "Here is the exported translation file:"
+msgstr "Qui trovi il file esportato:"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:158
+#, python-format
+msgid "No active signature requests for this token!"
+msgstr "Nessuna richiesta di firma attiva per questo token!"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:245
+#, python-format
+msgid "No attachment to sign!"
+msgstr "Nessun allegato da firmare!"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/wizard/export_tos.py:62
+#: code:addons/document_digital_signature/wizard/export_tos_single_attachment.py:62
+#: code:addons/document_digital_signature/wizard/export_tos_single_attachment.py:77
+#, python-format
+msgid "No attachments to sign!"
+msgstr "Nessun allegato da firmare!"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,origin_id:0
+msgid "Origin"
+msgstr "File di Origine"
+
+#. module: document_digital_signature
+#: field:res.users,pem:0
+msgid "PEM Certificate"
+msgstr "Certificato PEM"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:398
+#, python-format
+msgid "Permission Denied!"
+msgstr "Permesso Negato!"
+
+#. module: document_digital_signature
+#: field:res.users,reset_pem:0
+msgid "Reset Pem Configuration"
+msgstr "Resetta Certificato PEM"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,res_model:0
+msgid "Resource ID"
+msgstr "ID Risorsa"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,res_id:0
+msgid "Resource Model"
+msgstr "Modello Risorsa"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,sha1:0
+msgid "SHA1"
+msgstr "SHA1"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "Select the file and use the desktop application to sign the documents."
+msgstr ""
+"Seleziona il file e utilizza l'applicazione desktop dsodoo per firmare i "
+"documenti."
+
+#. module: document_digital_signature
+#: view:ir.attachment:0
+msgid "Sign Document"
+msgstr "Firma Documento"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,signed:0
+msgid "Signed"
+msgstr "Firmato"
+
+#. module: document_digital_signature
+#: field:ir.attachment,signed:0
+msgid "Signed Attachment"
+msgstr "Allegato Firmato"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,user_id:0
+msgid "Signer"
+msgstr "Firmatario"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:399
+#, python-format
+msgid "The attachment is related to a workflow!"
+msgstr "L'allegato è all'interno di un processo di workflow!"
+
+#. module: document_digital_signature
+#: field:ir.attachment,to_sign:0
+msgid "To Sign"
+msgstr "Da Firmare"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,name:0
+msgid "Token"
+msgstr "Token"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:148
+#, python-format
+msgid "Token not valid!"
+msgstr "Token non valido!"
+
+#. module: document_digital_signature
+#: field:ir.attachment.sign,trigger:0
+msgid "Trigger Event"
+msgstr "Evento Trigger"
+
+#. module: document_digital_signature
+#: view:ir.attachment:0
+msgid "Unsign Document"
+msgstr "Riporta a \"Da non firmare\""
+
+#. module: document_digital_signature
+#: model:res.groups,name:document_digital_signature.group_sign_user
+msgid "User Can Sign Docs"
+msgstr "L'utente può firmare i documenti"
+
+#. module: document_digital_signature
+#: code:_description:0
+#: model:ir.model,name:document_digital_signature.model_res_users
+#, python-format
+msgid "Users"
+msgstr "Utenti"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/controllers/main.py:64
+#, python-format
+msgid "We can not process your request!"
+msgstr "Non è stato possibile processare la richiesta!"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:358
+#, python-format
+msgid "You must select a stored attachment!"
+msgstr "Devi selezionare un allegato salvato a sistema!"
+
+#. module: document_digital_signature
+#: code:addons/document_digital_signature/model/document_digital_signature.py:363
+#, python-format
+msgid "You must select an attachmentrelated to a model or to a folder!"
+msgstr ""
+"Necessario selezionare un allegato legato ad un modello o ad una directory!"
+
+#. module: document_digital_signature
+#: selection:document.ds.export.single.tos,state:0
+#: selection:document.ds.export.tos,state:0
+msgid "choose"
+msgstr "Scegli"
+
+#. module: document_digital_signature
+#: code:_description:0
+#: model:ir.model,name:document_digital_signature.model_document_ds_export_single_tos
+#, python-format
+msgid "document.ds.export.single.tos"
+msgstr "Esporta archivio di un singolo file"
+
+#. module: document_digital_signature
+#: code:_description:0
+#: model:ir.model,name:document_digital_signature.model_document_ds_export_tos
+#, python-format
+msgid "document.ds.export.tos"
+msgstr "Esporta archivio di tutti i documenti da firmare"
+
+#. module: document_digital_signature
+#: selection:document.ds.export.single.tos,state:0
+#: selection:document.ds.export.tos,state:0
+msgid "get"
+msgstr "get"
+
+#. module: document_digital_signature
+#: code:_description:0
+#: model:ir.model,name:document_digital_signature.model_ir_attachment
+#, python-format
+msgid "ir.attachment"
+msgstr "ir.attachment"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "or"
+msgstr "o"
+
+#. module: document_digital_signature
+#: field:document.ds.export.single.tos,state:0
+#: field:document.ds.export.tos,state:0
+msgid "unknown"
+msgstr "unknown"
+
+#. module: document_digital_signature
+#: view:document.ds.export.single.tos:0 view:document.ds.export.tos:0
+msgid "your document to sign"
+msgstr "Il tuo documento da firmare"

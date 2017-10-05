@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="wizard_export_single_tos" model="ir.ui.view">
+            <field name="name">Export Attachment To Sign</field>
+            <field name="model">document.ds.export.single.tos</field>
+            <field name="arch" type="xml">
+                <form string="Export Attachment to Sign" class="oe_signature" version="7.0">
+                    <field invisible="1" name="state"/>
+                    <field name="name" invisible="1"/>
+                    <div states="choose">
+                        <h2>Create Archive to Sign</h2>
+                        <p>your document to sign</p>
+                    </div>
+                    <div states="get">
+                        <h2>Export Complete</h2>
+                        <p>Here is the exported file to sign with dsodoo: <field name="data" readonly="1" filename="name"/></p>
+                        <p>Select the file and use the desktop application to sign the documents.</p>
+                    </div>
+                    <footer states="choose">
+                        <button name="get_tos" string="Export" type="object" class="oe_highlight"/>
+                        <button special="cancel" string="Cancel" type="object" class="oe_link"/>
+                    </footer>
+                    <footer states="get">
+                        <button special="cancel" string="Close" type="object"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_wizard_export_single_tos" model="ir.actions.act_window">
+            <field name="name">Export Attachment To Sign</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="src_model">ir.attachment</field>
+            <field name="res_model">document.ds.export.single.tos</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</openerp>

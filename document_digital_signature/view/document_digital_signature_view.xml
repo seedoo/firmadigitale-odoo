@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+    	<record model="ir.ui.view" id="view_document_file_form">
+	        <field name="name">ir.attachment</field>
+	        <field name="model">ir.attachment</field>
+	        <field name="inherit_id" ref="document.view_document_file_form"/>
+	        <field name="arch" type="xml">
+	        	<field name="partner_id" position="after">
+	        		<field name="to_sign" invisible="1"/>
+	        		<field name="signed" />
+	        		<button name="prepare_for_signature" string="Sign Document" type="object" icon="gtk-execute" class="oe_inline" attrs="{'invisible': ['|', ('to_sign', '=', True),('signed', '!=', False)]}"/>
+	        		<button name="%(action_wizard_export_single_tos)d" type='action'   string="Export Document To Sign" icon="gtk-execute" class="oe_inline" attrs="{'invisible': ['|', ('to_sign', '=', False),('signed', '!=', False)]}"/>
+	        		<button name="unselect_for_signature" string="Unsign Document" type="object" icon="gtk-execute" class="oe_inline" attrs="{'invisible': ['|', ('to_sign', '=', False),('signed', '!=', False)]}"/>
+	        	</field>
+	        </field>
+        </record>
+
+    </data>
+</openerp>

@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_ir_attachment_sign_user,ir_attachment_sign.user,model_ir_attachment_sign,group_sign_user,1,1,1,1
+access_res_users_pem_user,res_users_pem.user,model_res_users_pem,group_sign_user,1,0,0,0

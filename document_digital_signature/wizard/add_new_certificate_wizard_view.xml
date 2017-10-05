@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+            
+        <!-- wizard view -->
+        <record id="document_ds_add_certificate_view" model="ir.ui.view">
+            <field name="name">Load New Certificate</field>
+            <field name="model">document.ds.add.certificate</field>
+            <field name="arch" type="xml">
+                <form string="Load New Certificate" version="7.0">
+                    <separator string="Load Signed Document" />
+                    <div>
+                        Here you must load a P7M document signed with the new certificate
+                    </div>
+                    <newline/>
+                    <label for="name"/>
+                    <field name="name"/>
+                    <label for="data"/>
+                    <field name="data" filename="name"/>
+                    <div>
+                        And confirm
+                    </div>
+                    <footer>
+                        <button string="Ok" name="set_pem" type="object" class="oe_highlight"/>
+                        o
+                        <button string="Cancel" class="oe_link" special="cancel" />    
+                    </footer>
+                </form>
+            </field>
+        </record>         
+        
+        <record id="document_ds_add_certificate_act" model="ir.actions.act_window">
+            <field name="name">Load New Certificate</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">document.ds.add.certificate</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="view_id" ref="document_ds_add_certificate_view"/>
+
+        </record>  
+        
+        
+        <menuitem action="document_ds_add_certificate_act" id="document_ds_add_certificate_menu" parent="document.menu_document_doc"/>
+    </data>
+</openerp>
